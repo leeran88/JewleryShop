@@ -1,0 +1,11 @@
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+Thumbs.db
+*.user
+_ReSharper*
+*.csproj.user
+*.resharper.user
+*.suo
+*.cache
