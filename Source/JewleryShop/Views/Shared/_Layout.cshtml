@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html dir="rtl">
+    <head >
+        <title>@ViewBag.Title</title>
+        <link href="@Url.Content("~/Styles/Site.css")" rel="stylesheet" type="text/css" />
+        @*<script src="@Url.Content("~/Scripts/jquery-1.7.1.min.js")" type="text/javascript"></script>*@
+    </head>
+    <body>
+        <div class="page">
+            <div id="header">
+                <div id="title">
+                    <h1>הילה</h1>
+                </div>
+                <div id="menucontainer">
+                    <ul id="menu">
+                        <li>@Html.ActionLink("שרשראות", "Index", "Home")</li>
+                        <li>@Html.ActionLink("עגילים", "Index", "Home")</li>
+                        <li>@Html.ActionLink("צמידים", "Index", "Home")</li>
+                        <li>@Html.ActionLink("טבעות", "Index", "Home")</li>
+                        <li>@Html.ActionLink("צור קשר", "Index", "Home")</li>
+                        <li>@Html.ActionLink("אודות", "About", "Home")</li>
+                    </ul>
+                </div>
+            </div>
+            <div id="main">
+                @RenderBody()
+            </div>
+            <div id="footer">
+                <p>הילה, פרטים, אימייל</p>
+            </div>
+        </div>
+    </body>
+</html>

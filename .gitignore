@@ -1,12 +1,9 @@
-[Dd]ebug/
-[Rr]elease/
 [Bb]in/
 [Oo]bj/
+[Pp]ackages/
+_ReSharper*/
+
 Thumbs.db
 *.user
-_ReSharper*
-*.csproj.user
-*.resharper.user
 *.suo
 *.cache
-packages/*
