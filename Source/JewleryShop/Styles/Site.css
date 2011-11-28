@@ -1,39 +1,44 @@
 ﻿
 /*#region ROOT STYLES */
 
-body {
+body
+{
     background-color: #100303;
     font-size: .85em;
-    font-family: "Trebuchet MS", Verdana, Helvetica, Sans-Serif;
+    font-family: "Trebuchet MS" , Verdana, Helvetica, Sans-Serif;
     margin: 0;
     padding: 0;
 }
 
-a:link {
+a:link
+{
     color: #034af3;
     text-decoration: underline;
 }
 
-a:visited {
+a:visited
+{
     color: #505abc;
 }
 
-a:hover {
+a:hover
+{
     color: #1d60ff;
     text-decoration: none;
 }
 
-a:active {
+a:active
+{
     color: #12eb87;
 }
 
-p {    
+p
+{
     color: #999999;
 }
 
-header,
-nav,
-section {
+header, nav, section
+{
     display: block;
 }
 
@@ -41,30 +46,36 @@ section {
 
 /*#region HEADINGS */
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6
+{
     color: #999999;
 }
 
-h1 {
+h1
+{
     font-size: 2em;
     padding-bottom: 0;
     margin-bottom: 0;
 }
 
-h2 {
+h2
+{
     font-size: 1.5em;
     padding: 0 0 10px 0;
 }
 
-h3 {
+h3
+{
     font-size: 1.2em;
 }
 
-h4 {
+h4
+{
     font-size: 1.1em;
 }
 
-h5, h6 {
+h5, h6
+{
     font-size: 1em;
 }
 
@@ -72,17 +83,20 @@ h5, h6 {
 
 /*#region PRIMARY LAYOUT ELEMENTS */
 
-.page {
+.page
+{
     width: 90%;
     margin-left: auto;
     margin-right: auto;
 }
 
-header, #header {
+header, #header
+{
     position: relative;
 }
 
-header h1, #header h1 {
+header h1, #header h1
+{
     font-weight: bold;
     padding: 5px 0;
     margin: 0;
@@ -90,20 +104,34 @@ header h1, #header h1 {
     border: none;
     line-height: 2em;
     font-size: 32px !important;
-    text-shadow: 0 0 0.75em #FFD000, 0 0 0.5em #FFD000, 0 0 0.25em #FFD000, 0 0 0.1em #FFD000
 }
 
-#main {
+.glow
+{
+    text-shadow: 0 0 0.75em #FFD000, 0 0 0.5em #FFD000, 0 0 0.25em #FFD000, 0 0 0.1em #FFD000;   
+}
+
+.glow span /* IE Compitability */
+{
+    position: absolute;
+    color: #FFD000;
+    right: -8px;/* -(strength + pixelradius) */
+    top: -3px; /* -strength */
+    z-index: -1;   
+    filter: progid:DXImageTransform.Microsoft.Glow(Color=#FFD000, Strength=3)
+            progid:DXImageTransform.Microsoft.Blur(pixelradius=5, enabled='true');
+}
+
+#main
+{
     padding: 30px 30px 15px 30px;
     border: 1px solid #FFDD11;
     border-radius: 10px;
-    
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
 }
 
-footer, 
-#footer 
+footer, #footer
 {
     width: inherit;
     position: absolute;
@@ -115,18 +143,21 @@ footer,
 
 /*#region TAB-MENU */
 
-ul#menu {
+ul#menu
+{
     padding: 0 0 2px;
     position: relative;
     margin: 0;
 }
 
-ul#menu li {
+ul#menu li
+{
     display: inline;
     list-style: none;
 }
 
-ul#menu li#greeting {
+ul#menu li#greeting
+{
     padding: 10px 20px;
     font-weight: bold;
     text-decoration: none;
@@ -134,7 +165,8 @@ ul#menu li#greeting {
     color: #ffffff;
 }
 
-ul#menu li a {
+ul#menu li a
+{
     padding: 10px 20px;
     font-weight: bold;
     text-decoration: none;
@@ -142,22 +174,24 @@ ul#menu li a {
     background-color: #FFDD11;
     color: Black;
     border-radius: 4px 4px 0 0;
-    
     -webkit-border-radius: 4px 4px 0 0;
     -moz-border-radius: 4px 4px 0 0;
 }
 
-ul#menu li a:hover {
+ul#menu li a:hover
+{
     background-color: Yellow;
     text-decoration: none;
 }
 
-ul#menu li a:active {
+ul#menu li a:active
+{
     background-color: Orange;
     text-decoration: none;
 }
 
-ul#menu li.selected a {
+ul#menu li.selected a
+{
     background-color: Green;
     color: Orange;
 }
@@ -166,20 +200,23 @@ ul#menu li.selected a {
 
 /*#region MISC */
 
-.clear {
+.clear
+{
     clear: both;
 }
 
-.error {
+.error
+{
     color: Red;
 }
 
-nav, 
-#menucontainer {
+nav, #menucontainer
+{
     margin-top: 40px;
 }
 
-div#title {
+div#title
+{
     display: block;
 }
 
