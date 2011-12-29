@@ -1,5 +1,5 @@
 ﻿<%@ Page Title="תכשיטי הילה" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
-    CodeBehind="Main.aspx.cs" Inherits="JewleryShop.Main" %>
+    CodeBehind="Default.aspx.cs" Inherits="JewleryShop.Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
     <link href="Styles/Site.css" rel="stylesheet" type="text/css" />

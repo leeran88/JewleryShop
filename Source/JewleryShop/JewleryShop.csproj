@@ -125,7 +125,7 @@
     <Content Include="Scripts\jquery-ui-1.8.16.js" />
     <Content Include="Scripts\jquery-ui-1.8.16.min.js" />
     <Content Include="Styles\Site.css" />
-    <Content Include="Main.aspx" />
+    <Content Include="Default.aspx" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -136,12 +136,12 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Main.aspx.cs">
-      <DependentUpon>Main.aspx</DependentUpon>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Main.aspx.designer.cs">
-      <DependentUpon>Main.aspx</DependentUpon>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

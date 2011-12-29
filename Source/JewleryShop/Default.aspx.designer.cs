@@ -9,7 +9,7 @@
 
 namespace JewleryShop
 {
-    public partial class Main
+    public partial class Default
     {
     }
 }
