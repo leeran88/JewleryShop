@@ -1,0 +1,30 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="JewleryShop.SiteMaster" %>
+
+<!DOCTYPE html>
+<html dir="rtl">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server" />
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <div class="title">
+                <h1 class="glow">
+                    הילה
+                    <!--[if IE]>
+                            <span>הילה</span>
+                        <![endif]-->
+                </h1>
+            </div>
+        </div>
+        <div class="main">
+            <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+        </div>
+        <div class="footer">
+            <p>הילה, פרטים, אימייל</p>
+        </div>
+    </div>
+    
+</body>
+</html>
