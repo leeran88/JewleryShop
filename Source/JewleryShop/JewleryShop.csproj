@@ -116,6 +116,11 @@
     <Content Include="Content\themes\galleria\classic\galleria.classic.css" />
     <Content Include="Content\themes\galleria\classic\galleria.classic.js" />
     <Content Include="Content\themes\galleria\classic\galleria.classic.min.js" />
+    <Content Include="Images\Bracelets\bracelet.jpg" />
+    <Content Include="Images\Earrings\earrings.jpg" />
+    <Content Include="Images\Necklaces\necklace.jpg" />
+    <Content Include="Images\Rings\ring.jpg" />
+    <Content Include="Scripts\galleria-data.js" />
     <Content Include="Scripts\galleria-1.2.6.js" />
     <Content Include="Scripts\galleria-1.2.6.min.js" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />

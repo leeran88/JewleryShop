@@ -215,7 +215,7 @@ ul.menu li.selected a
 
 /*#region GALLERY */
 
-.galleria
+.gallerycontainer
 {
     margin: auto;
     width: 520px;
@@ -223,3 +223,13 @@ ul.menu li.selected a
 }
 
 /*#endregion*/
+
+.contactcontainer
+{
+    margin: auto;
+}
+
+.aboutcontainer
+{
+    margin: auto;
+}
